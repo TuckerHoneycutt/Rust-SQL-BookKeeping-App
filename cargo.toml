@@ -1,0 +1,12 @@
+[package]
+name = "your_project_name"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1.6"
+rusqlite = "0.26.2"
+
+[[bin]]
+name = "main"
+path = "main.rs"
